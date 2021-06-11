@@ -7,5 +7,5 @@ urlpatterns = [
     path('<str:pk>', views.TodoCreate, name = 'TodoCreate'),
     path('get/<str:pk>', views.TodoDetail, name = 'TodoDetail'),
     path('put/<str:pk>', views.TodoUpdate, name = 'TodoUpdate'),
-    path('deletet/<str:pk>', views.TodoDelete, name = 'TodoDelete')
+    path('delete/<str:pk>', views.TodoDelete, name = 'TodoDelete')
 ]
